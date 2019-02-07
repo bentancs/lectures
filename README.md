@@ -7,3 +7,7 @@ Introduction: Network Models and Connecting Devices
 Application Layer Protocols: WWW, FTP, HTTP, and SMTP
 
 Transport Layer Protocols: TCP and UDP
+
+IEEE 802.11 Wireless LANs: WiFi and MANETs
+
+An Introduction to Network Simulators
