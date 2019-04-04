@@ -15,7 +15,7 @@ class TCPServer {
          try { 
               while (true)	//Infintie loop to accept connection from the client
                  {
-                  welcomeSocket.setSoTimeout(10000);
+                  welcomeSocket.setSoTimeout(10000); 	//Timer 10000ms: socket will not be closed
                   System.out.println ("Waiting for Connection");
                   try {
                        Socket connectionSocket = welcomeSocket.accept(); 
