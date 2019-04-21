@@ -10,7 +10,7 @@ class TCPClient {
 
 		Socket clientSocket = new Socket("127.0.0.1", 5678);
 
-		System.out.println ("Clinet Socket Created");
+		System.out.println ("Client Socket Created");
 
 		DataOutputStream outToServer = new DataOutputStream(clientSocket.getOutputStream());
 		
